@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    background: url(slikice/zenica_panorama.jpg), rgba(0,0,0,0.6);
+    background-blend-mode: overlay;
+    font-family: sans-serif;
+    background-size: cover;
+}
+.hero {
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+} 
+
+.naslov{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(6, 19, 9, 0.8);
+    width: 100%;
+    padding:-5px 0px -5px 30px;
+    border-bottom: 2px solid rgb(248, 244, 244, 0.8);
+    text-align: left;
+}
+.grb {
+    margin:0px;
+    width: 30px;
+    height: 30px;
+    padding: 0px 10px 0px 20px;
+}
+#dobrodosli{
+    padding: 0px;
+    margin: 10px -30px 10px 5px;
+}
+.nicaze{
+    width: 50%;
+    height: auto;
+    box-shadow: rgb(2, 7, 1) 5px 5px 6px;
+    opacity: 0.95;
+}
+.nicaze:hover {
+    opacity: 1.0;
+}
+.tekst {
+    color: whitesmoke;
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    justify-content: space-evenly;
+    background-color: rgb(8, 8, 10, 0.8);
+    padding: 8px;
+    border-radius: 20px;
+}
+.btn {
+    text-decoration: none;
+    color: whitesmoke ;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
